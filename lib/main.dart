@@ -36,7 +36,8 @@ class Home extends StatelessWidget {
         //    
         //   ),
         // ),
-        child: Image.network('https://picsum.photos/seed/picsum/200/300'),
+        child: // Image.network('https://picsum.photos/seed/picsum/200/300'),
+          Image.asset('images/poo.jpg', height: 300, width: 300, fit: BoxFit.fill,),
       ),
     );
   }
